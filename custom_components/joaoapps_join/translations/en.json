@@ -1,0 +1,36 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Join by Joaoapps",
+        "description": "Enter your Join API key. It is shown at https://joinjoaomgcd.appspot.com/.",
+        "data": {
+          "api_key": "API key"
+        }
+      },
+      "devices": {
+        "title": "Select devices",
+        "description": "Devices found for this API key.",
+        "data": {
+          "name": "Name",
+          "devices": "Devices"
+        },
+        "data_description": {
+          "name": "Optional. Used as the prefix for the actions (e.g. joaoapps_join.<name>_ring) and as notify.<name>."
+        }
+      }
+    },
+    "error": {
+      "invalid_auth": "Could not list devices. Check the API key.",
+      "cannot_connect": "Could not connect to Join.",
+      "one_target_required": "Fill in exactly one of device ID, device IDs, or device names.",
+      "no_devices_selected": "Select at least one device."
+    },
+    "abort": {
+      "already_configured": "This API key and target are already configured.",
+      "invalid_auth": "Could not list devices. Check the API key.",
+      "cannot_connect": "Could not connect to Join.",
+      "one_target_required": "Specify exactly one of device_id, device_ids, or device_names."
+    }
+  }
+}

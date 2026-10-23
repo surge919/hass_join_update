@@ -1,0 +1,18 @@
+{
+  "domain": "joaoapps_join",
+  "name": "Joaoapps Join",
+  "codeowners": [
+    "@surge919"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/surge919/hass_join_update",
+  "iot_class": "cloud_push",
+  "issue_tracker": "https://github.com/surge919/hass_join_update/issues",
+  "loggers": [
+    "pyjoin"
+  ],
+  "requirements": [
+    "python-join-api==0.1.1"
+  ],
+  "version": "2.0.0"
+}
