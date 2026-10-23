@@ -16,7 +16,7 @@
           "devices": "Devices"
         },
         "data_description": {
-          "name": "Optional. Used as the prefix for the actions (e.g. joaoapps_join.<name>_ring) and as notify.<name>."
+          "name": "Optional. Used as the prefix for the actions (e.g. joaoapps_join.NAME_ring) and as notify.NAME."
         }
       }
     },
